@@ -1,0 +1,16 @@
+PODS:
+  - OnebyteSwiftNetworkCycle (0.1.0)
+
+DEPENDENCIES:
+  - OnebyteSwiftNetworkCycle (from `../`)
+
+EXTERNAL SOURCES:
+  OnebyteSwiftNetworkCycle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OnebyteSwiftNetworkCycle: 28945bb3485ff7aef4b6d10417d366e7d279ed2f
+
+PODFILE CHECKSUM: d838ea0fcd67cc3ffd16df38fc081abd03966341
+
+COCOAPODS: 1.1.1

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OnebyteSwiftNetworkCycle'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OnebyteSwiftNetworkCycle.'
+  s.summary          = 'Onebyte pod for integrating and performing Network operations for Swift based projects.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'It contains Managers, Operations and Operation queues to perform RESTful APIs operations used in Swift based applications developed in Onebyte LLC. All the operations are executed using Alamofire SDK.'
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/OnebyteSwiftNetworkCycle'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'eHumayun Sohail' => 'humayun4206@gmail.com' }
+  s.author           = { 'Humayun Sohail' => 'humayun4206@gmail.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/OnebyteSwiftNetworkCycle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'UIKit'
+  # s.dependency 'Alamofire', '~> 4.0'
 end
