@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="swift_api_cycle" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="1tP-DD-8Hw"/>
+                <outlet property="viewOutlet" destination="iN0-l3-epB" id="L5e-pd-zs9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View" customModule="swift_api_cycle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdO-2O-ZY1">
+                    <rect key="frame" x="125" y="40" width="124" height="30"/>
+                    <state key="normal" title="Unauthorized API "/>
+                    <connections>
+                        <action selector="callUnauthorizedAPIButtonTappedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Yua-rN-Qtf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNu-7K-vIk">
+                    <rect key="frame" x="134" y="90" width="106" height="30"/>
+                    <state key="normal" title="Authorized API "/>
+                    <connections>
+                        <action selector="callAuthorizedAPIButtonTappedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="B95-BA-N1d"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xNu-7K-vIk" firstAttribute="top" secondItem="CdO-2O-ZY1" secondAttribute="bottom" constant="20" id="TZo-Fv-GgK"/>
+                <constraint firstItem="CdO-2O-ZY1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="iDm-qh-b5c"/>
+                <constraint firstItem="CdO-2O-ZY1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="l85-Nk-j0k"/>
+                <constraint firstItem="xNu-7K-vIk" firstAttribute="centerX" secondItem="CdO-2O-ZY1" secondAttribute="centerX" id="mfb-0t-bNI"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

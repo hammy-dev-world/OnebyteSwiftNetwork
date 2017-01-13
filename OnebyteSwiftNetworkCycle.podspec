@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'It contains Managers, Operations and Operation queues to perform RESTful APIs operations used in Swift based applications developed in Onebyte LLC. All the operations are executed using Alamofire SDK.'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/OnebyteSwiftNetworkCycle'
+  s.homepage         = 'https://github.com/hammy-dev-world/OnebyteSwiftNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Humayun Sohail' => 'humayun4206@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/OnebyteSwiftNetworkCycle.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hammy-dev-world/OnebyteSwiftNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #   'OnebyteSwiftNetworkCycle' => ['OnebyteSwiftNetworkCycle/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit'
-  # s.dependency 'Alamofire', '~> 4.0'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.frameworks = 'Alamofire'
+  s.dependency 'Alamofire', '~> 4.0'
 end

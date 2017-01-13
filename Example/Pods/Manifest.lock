@@ -1,7 +1,10 @@
 PODS:
-  - OnebyteSwiftNetworkCycle (0.1.0)
+  - Alamofire (4.2.0)
+  - OnebyteSwiftNetworkCycle (0.1.0):
+    - Alamofire (~> 4.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
   - OnebyteSwiftNetworkCycle (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +12,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OnebyteSwiftNetworkCycle: 28945bb3485ff7aef4b6d10417d366e7d279ed2f
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  OnebyteSwiftNetworkCycle: ea31116ea8308146885479c9c5fd9650dc902bd1
 
-PODFILE CHECKSUM: d838ea0fcd67cc3ffd16df38fc081abd03966341
+PODFILE CHECKSUM: 48b2821cf75d8fc80b06575dcd07c335d32c5037
 
 COCOAPODS: 1.1.1

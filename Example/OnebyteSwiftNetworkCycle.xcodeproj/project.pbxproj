@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		95985FC31E28F65700BD92D5 /* AppDelegate+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FA11E28F65700BD92D5 /* AppDelegate+Navigation.swift */; };
+		95985FC41E28F65700BD92D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FA31E28F65700BD92D5 /* AppDelegate.swift */; };
+		95985FC51E28F65700BD92D5 /* AppNetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FAA1E28F65700BD92D5 /* AppNetworkConstants.swift */; };
+		95985FC61E28F65700BD92D5 /* AppNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FAC1E28F65700BD92D5 /* AppNetworkManager.swift */; };
+		95985FC71E28F65700BD92D5 /* AuthorizedAPIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FAE1E28F65700BD92D5 /* AuthorizedAPIOperation.swift */; };
+		95985FC81E28F65700BD92D5 /* UnauthorizedAPIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FAF1E28F65700BD92D5 /* UnauthorizedAPIOperation.swift */; };
+		95985FC91E28F65700BD92D5 /* ViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FB31E28F65700BD92D5 /* ViewHandler.swift */; };
+		95985FCA1E28F65700BD92D5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FB51E28F65700BD92D5 /* View.swift */; };
+		95985FCB1E28F65700BD92D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FB71E28F65700BD92D5 /* ViewController.swift */; };
+		95985FCC1E28F65700BD92D5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95985FB81E28F65700BD92D5 /* ViewController.xib */; };
+		95985FCD1E28F65700BD92D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95985FBA1E28F65700BD92D5 /* Info.plist */; };
+		95985FCE1E28F65700BD92D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95985FBD1E28F65700BD92D5 /* Assets.xcassets */; };
+		95985FCF1E28F65700BD92D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95985FBF1E28F65700BD92D5 /* LaunchScreen.storyboard */; };
+		95985FD01E28F65700BD92D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95985FC11E28F65700BD92D5 /* Main.storyboard */; };
+		95985FD21E28F87000BD92D5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95985FD11E28F87000BD92D5 /* Alamofire.framework */; };
+		95985FD41E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95985FD31E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework */; };
 		AF9F794A0A88F0351EC31750 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86607A8162BAD8415850163E /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */; };
 		C8F9F69BE57834873F4612F4 /* Pods_OnebyteSwiftNetworkCycle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268350753149092E42F70D59 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */; };
 /* End PBXBuildFile section */
@@ -32,12 +43,6 @@
 		08E816DEE87DDAD8DCD7B356 /* OnebyteSwiftNetworkCycle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OnebyteSwiftNetworkCycle.podspec; path = ../OnebyteSwiftNetworkCycle.podspec; sourceTree = "<group>"; };
 		268350753149092E42F70D59 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnebyteSwiftNetworkCycle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* OnebyteSwiftNetworkCycle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnebyteSwiftNetworkCycle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* OnebyteSwiftNetworkCycle_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnebyteSwiftNetworkCycle_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +52,24 @@
 		834F13643A5EF82E95124E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		86607A8162BAD8415850163E /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnebyteSwiftNetworkCycle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EB32264DA4AB80532240D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		95985FA11E28F65700BD92D5 /* AppDelegate+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Navigation.swift"; sourceTree = "<group>"; };
+		95985FA31E28F65700BD92D5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95985FA51E28F65700BD92D5 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		95985FA61E28F65700BD92D5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		95985FAA1E28F65700BD92D5 /* AppNetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworkConstants.swift; sourceTree = "<group>"; };
+		95985FAC1E28F65700BD92D5 /* AppNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworkManager.swift; sourceTree = "<group>"; };
+		95985FAE1E28F65700BD92D5 /* AuthorizedAPIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizedAPIOperation.swift; sourceTree = "<group>"; };
+		95985FAF1E28F65700BD92D5 /* UnauthorizedAPIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnauthorizedAPIOperation.swift; sourceTree = "<group>"; };
+		95985FB31E28F65700BD92D5 /* ViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHandler.swift; sourceTree = "<group>"; };
+		95985FB51E28F65700BD92D5 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		95985FB71E28F65700BD92D5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95985FB81E28F65700BD92D5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		95985FBA1E28F65700BD92D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95985FBD1E28F65700BD92D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95985FC01E28F65700BD92D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95985FC21E28F65700BD92D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95985FD11E28F87000BD92D5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Release-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		95985FD31E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OnebyteSwiftNetworkCycle.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/OnebyteSwiftNetworkCycle-falpcssockuebecofmfpdrcxgckb/Build/Products/Debug-iphonesimulator/OnebyteSwiftNetworkCycle/OnebyteSwiftNetworkCycle.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95985FD41E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework in Frameworks */,
+				95985FD21E28F87000BD92D5 /* Alamofire.framework in Frameworks */,
 				C8F9F69BE57834873F4612F4 /* Pods_OnebyteSwiftNetworkCycle_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +97,8 @@
 		2A54EB2E9AFF4DD1B80F6789 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95985FD31E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework */,
+				95985FD11E28F87000BD92D5 /* Alamofire.framework */,
 				268350753149092E42F70D59 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */,
 				86607A8162BAD8415850163E /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */,
 			);
@@ -102,23 +129,10 @@
 		607FACD21AFB9204008FA782 /* Example for OnebyteSwiftNetworkCycle */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
+				95985F691E28F63E00BD92D5 /* swift-api-cycle */,
 			);
 			name = "Example for OnebyteSwiftNetworkCycle";
 			path = OnebyteSwiftNetworkCycle;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -146,6 +160,181 @@
 				92EB32264DA4AB80532240D5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		95985F691E28F63E00BD92D5 /* swift-api-cycle */ = {
+			isa = PBXGroup;
+			children = (
+				95985F9E1E28F65700BD92D5 /* Classes */,
+				95985FB91E28F65700BD92D5 /* ProjectSettings */,
+				95985FBB1E28F65700BD92D5 /* Resources */,
+			);
+			path = "swift-api-cycle";
+			sourceTree = "<group>";
+		};
+		95985F9E1E28F65700BD92D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95985F9F1E28F65700BD92D5 /* AppDelegate */,
+				95985FA41E28F65700BD92D5 /* Headers */,
+				95985FA71E28F65700BD92D5 /* Network */,
+				95985FB01E28F65700BD92D5 /* VIewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		95985F9F1E28F65700BD92D5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				95985FA01E28F65700BD92D5 /* Navigation */,
+				95985FA21E28F65700BD92D5 /* Root */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		95985FA01E28F65700BD92D5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				95985FA11E28F65700BD92D5 /* AppDelegate+Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		95985FA21E28F65700BD92D5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				95985FA31E28F65700BD92D5 /* AppDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		95985FA41E28F65700BD92D5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				95985FA51E28F65700BD92D5 /* AFNetworking.h */,
+				95985FA61E28F65700BD92D5 /* PrefixHeader.pch */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		95985FA71E28F65700BD92D5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				95985FA81E28F65700BD92D5 /* App */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		95985FA81E28F65700BD92D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				95985FA91E28F65700BD92D5 /* Common */,
+				95985FAB1E28F65700BD92D5 /* Manager */,
+				95985FAD1E28F65700BD92D5 /* Operations */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		95985FA91E28F65700BD92D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				95985FAA1E28F65700BD92D5 /* AppNetworkConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		95985FAB1E28F65700BD92D5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				95985FAC1E28F65700BD92D5 /* AppNetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		95985FAD1E28F65700BD92D5 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				95985FAE1E28F65700BD92D5 /* AuthorizedAPIOperation.swift */,
+				95985FAF1E28F65700BD92D5 /* UnauthorizedAPIOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		95985FB01E28F65700BD92D5 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95985FB11E28F65700BD92D5 /* Main */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		95985FB11E28F65700BD92D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				95985FB21E28F65700BD92D5 /* Handler */,
+				95985FB41E28F65700BD92D5 /* View */,
+				95985FB61E28F65700BD92D5 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		95985FB21E28F65700BD92D5 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				95985FB31E28F65700BD92D5 /* ViewHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		95985FB41E28F65700BD92D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95985FB51E28F65700BD92D5 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95985FB61E28F65700BD92D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95985FB71E28F65700BD92D5 /* ViewController.swift */,
+				95985FB81E28F65700BD92D5 /* ViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		95985FB91E28F65700BD92D5 /* ProjectSettings */ = {
+			isa = PBXGroup;
+			children = (
+				95985FBA1E28F65700BD92D5 /* Info.plist */,
+			);
+			path = ProjectSettings;
+			sourceTree = "<group>";
+		};
+		95985FBB1E28F65700BD92D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95985FBC1E28F65700BD92D5 /* Assets */,
+				95985FBE1E28F65700BD92D5 /* Launchscreen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95985FBC1E28F65700BD92D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				95985FBD1E28F65700BD92D5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		95985FBE1E28F65700BD92D5 /* Launchscreen */ = {
+			isa = PBXGroup;
+			children = (
+				95985FBF1E28F65700BD92D5 /* LaunchScreen.storyboard */,
+				95985FC11E28F65700BD92D5 /* Main.storyboard */,
+			);
+			path = Launchscreen;
 			sourceTree = "<group>";
 		};
 		F83C0346F596EF51B5DB946A /* Pods */ = {
@@ -248,9 +437,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				95985FCD1E28F65700BD92D5 /* Info.plist in Resources */,
+				95985FD01E28F65700BD92D5 /* Main.storyboard in Resources */,
+				95985FCF1E28F65700BD92D5 /* LaunchScreen.storyboard in Resources */,
+				95985FCE1E28F65700BD92D5 /* Assets.xcassets in Resources */,
+				95985FCC1E28F65700BD92D5 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,8 +552,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				95985FCA1E28F65700BD92D5 /* View.swift in Sources */,
+				95985FC81E28F65700BD92D5 /* UnauthorizedAPIOperation.swift in Sources */,
+				95985FC71E28F65700BD92D5 /* AuthorizedAPIOperation.swift in Sources */,
+				95985FCB1E28F65700BD92D5 /* ViewController.swift in Sources */,
+				95985FC61E28F65700BD92D5 /* AppNetworkManager.swift in Sources */,
+				95985FC41E28F65700BD92D5 /* AppDelegate.swift in Sources */,
+				95985FC31E28F65700BD92D5 /* AppDelegate+Navigation.swift in Sources */,
+				95985FC91E28F65700BD92D5 /* ViewHandler.swift in Sources */,
+				95985FC51E28F65700BD92D5 /* AppNetworkConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,20 +583,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		95985FBF1E28F65700BD92D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				95985FC01E28F65700BD92D5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		95985FC11E28F65700BD92D5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				95985FC21E28F65700BD92D5 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -491,6 +689,10 @@
 			baseConfigurationReference = 0756F902D68B49DC2EDE7524 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = OnebyteSwiftNetworkCycle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -505,6 +707,10 @@
 			baseConfigurationReference = 665BC9E7296FD578B123AACA /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = OnebyteSwiftNetworkCycle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -518,6 +724,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E2F7A8EADB7A675FFF51C7C /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +745,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D73555C97539A66F27C7F70 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
