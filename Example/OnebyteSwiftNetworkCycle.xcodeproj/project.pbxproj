@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2339DFE148D87F81828D6743 /* Pods_OnebyteSwiftNetworkCycle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2B8D42F269519BB4B22357 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		829159957152CF8C591DEE68 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220C1534ED225E5ABF83C7D0 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */; };
 		95985FC31E28F65700BD92D5 /* AppDelegate+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FA11E28F65700BD92D5 /* AppDelegate+Navigation.swift */; };
 		95985FC41E28F65700BD92D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FA31E28F65700BD92D5 /* AppDelegate.swift */; };
 		95985FC51E28F65700BD92D5 /* AppNetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95985FAA1E28F65700BD92D5 /* AppNetworkConstants.swift */; };
@@ -24,8 +26,6 @@
 		95985FD01E28F65700BD92D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95985FC11E28F65700BD92D5 /* Main.storyboard */; };
 		95985FD21E28F87000BD92D5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95985FD11E28F87000BD92D5 /* Alamofire.framework */; };
 		95985FD41E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95985FD31E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework */; };
-		AF9F794A0A88F0351EC31750 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86607A8162BAD8415850163E /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */; };
-		C8F9F69BE57834873F4612F4 /* Pods_OnebyteSwiftNetworkCycle_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268350753149092E42F70D59 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0756F902D68B49DC2EDE7524 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Example/Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		08E816DEE87DDAD8DCD7B356 /* OnebyteSwiftNetworkCycle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OnebyteSwiftNetworkCycle.podspec; path = ../OnebyteSwiftNetworkCycle.podspec; sourceTree = "<group>"; };
-		268350753149092E42F70D59 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnebyteSwiftNetworkCycle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220C1534ED225E5ABF83C7D0 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnebyteSwiftNetworkCycle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB9C43CD11BD6B50CF29972 /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Tests/Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42FCAA7C750374CAF3725971 /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Example/Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OnebyteSwiftNetworkCycle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnebyteSwiftNetworkCycle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* OnebyteSwiftNetworkCycle_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnebyteSwiftNetworkCycle_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		665BC9E7296FD578B123AACA /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Example/Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6D73555C97539A66F27C7F70 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Tests/Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E2F7A8EADB7A675FFF51C7C /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Tests/Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D2B8D42F269519BB4B22357 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnebyteSwiftNetworkCycle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834F13643A5EF82E95124E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		86607A8162BAD8415850163E /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnebyteSwiftNetworkCycle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EB32264DA4AB80532240D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		95985FA11E28F65700BD92D5 /* AppDelegate+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Navigation.swift"; sourceTree = "<group>"; };
 		95985FA31E28F65700BD92D5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +68,8 @@
 		95985FC21E28F65700BD92D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95985FD11E28F87000BD92D5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Release-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		95985FD31E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OnebyteSwiftNetworkCycle.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/OnebyteSwiftNetworkCycle-falpcssockuebecofmfpdrcxgckb/Build/Products/Debug-iphonesimulator/OnebyteSwiftNetworkCycle/OnebyteSwiftNetworkCycle.framework"; sourceTree = "<group>"; };
+		C1F777B5A7CA5F4D5F152813 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Example/Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D53E1D0F1DCFFBF3546881A1 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Tests/Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			files = (
 				95985FD41E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework in Frameworks */,
 				95985FD21E28F87000BD92D5 /* Alamofire.framework in Frameworks */,
-				C8F9F69BE57834873F4612F4 /* Pods_OnebyteSwiftNetworkCycle_Example.framework in Frameworks */,
+				2339DFE148D87F81828D6743 /* Pods_OnebyteSwiftNetworkCycle_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,20 +87,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9F794A0A88F0351EC31750 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework in Frameworks */,
+				829159957152CF8C591DEE68 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21759450944B565E4233DEE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F777B5A7CA5F4D5F152813 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */,
+				42FCAA7C750374CAF3725971 /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */,
+				2CB9C43CD11BD6B50CF29972 /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */,
+				D53E1D0F1DCFFBF3546881A1 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2A54EB2E9AFF4DD1B80F6789 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				95985FD31E29014100BD92D5 /* OnebyteSwiftNetworkCycle.framework */,
 				95985FD11E28F87000BD92D5 /* Alamofire.framework */,
-				268350753149092E42F70D59 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */,
-				86607A8162BAD8415850163E /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */,
+				7D2B8D42F269519BB4B22357 /* Pods_OnebyteSwiftNetworkCycle_Example.framework */,
+				220C1534ED225E5ABF83C7D0 /* Pods_OnebyteSwiftNetworkCycle_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +123,8 @@
 				607FACD21AFB9204008FA782 /* Example for OnebyteSwiftNetworkCycle */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				F83C0346F596EF51B5DB946A /* Pods */,
 				2A54EB2E9AFF4DD1B80F6789 /* Frameworks */,
+				21759450944B565E4233DEE0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -337,17 +348,6 @@
 			path = Launchscreen;
 			sourceTree = "<group>";
 		};
-		F83C0346F596EF51B5DB946A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0756F902D68B49DC2EDE7524 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */,
-				665BC9E7296FD578B123AACA /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */,
-				6E2F7A8EADB7A675FFF51C7C /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */,
-				6D73555C97539A66F27C7F70 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -355,12 +355,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OnebyteSwiftNetworkCycle_Example" */;
 			buildPhases = (
-				0E20563C677BE83972C31083 /* [CP] Check Pods Manifest.lock */,
+				5C8E99CA2EF3AF8EF49E2A42 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8407862C5585588471B8F069 /* [CP] Embed Pods Frameworks */,
-				59415A3BE6D10171EFF19F6B /* [CP] Copy Pods Resources */,
+				E68CDA06C548EBD51E065CF0 /* [CP] Embed Pods Frameworks */,
+				55A60DDC1829B13120F6BA74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -375,12 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OnebyteSwiftNetworkCycle_Tests" */;
 			buildPhases = (
-				4D6410F1CA21DEAAA5F7396E /* [CP] Check Pods Manifest.lock */,
+				41C1E7ACC4215959BEAA90CB /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				494B0EA856843659E18937D0 /* [CP] Embed Pods Frameworks */,
-				6AEFF97EDB66A8D9D54BDE39 /* [CP] Copy Pods Resources */,
+				05D3A2F590237CB239BB8669 /* [CP] Embed Pods Frameworks */,
+				63D0D71B1AF741E32BA6B328 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -455,22 +455,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E20563C677BE83972C31083 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		494B0EA856843659E18937D0 /* [CP] Embed Pods Frameworks */ = {
+		05D3A2F590237CB239BB8669 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,7 +470,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Tests/Pods-OnebyteSwiftNetworkCycle_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D6410F1CA21DEAAA5F7396E /* [CP] Check Pods Manifest.lock */ = {
+		41C1E7ACC4215959BEAA90CB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -500,7 +485,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		59415A3BE6D10171EFF19F6B /* [CP] Copy Pods Resources */ = {
+		55A60DDC1829B13120F6BA74 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -515,7 +500,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Example/Pods-OnebyteSwiftNetworkCycle_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6AEFF97EDB66A8D9D54BDE39 /* [CP] Copy Pods Resources */ = {
+		5C8E99CA2EF3AF8EF49E2A42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63D0D71B1AF741E32BA6B328 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -530,7 +530,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnebyteSwiftNetworkCycle_Tests/Pods-OnebyteSwiftNetworkCycle_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8407862C5585588471B8F069 /* [CP] Embed Pods Frameworks */ = {
+		E68CDA06C548EBD51E065CF0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -686,7 +686,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0756F902D68B49DC2EDE7524 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */;
+			baseConfigurationReference = C1F777B5A7CA5F4D5F152813 /* Pods-OnebyteSwiftNetworkCycle_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -704,7 +704,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 665BC9E7296FD578B123AACA /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */;
+			baseConfigurationReference = 42FCAA7C750374CAF3725971 /* Pods-OnebyteSwiftNetworkCycle_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -722,7 +722,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E2F7A8EADB7A675FFF51C7C /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2CB9C43CD11BD6B50CF29972 /* Pods-OnebyteSwiftNetworkCycle_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -743,7 +743,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D73555C97539A66F27C7F70 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */;
+			baseConfigurationReference = D53E1D0F1DCFFBF3546881A1 /* Pods-OnebyteSwiftNetworkCycle_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (

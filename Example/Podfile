@@ -2,8 +2,6 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'OnebyteSwiftNetworkCycle_Example' do
-  pod 'OnebyteSwiftNetworkCycle', :path => '../'
-  pod 'Alamofire', '~> 4.0'
 
   target 'OnebyteSwiftNetworkCycle_Tests' do
     inherit! :search_paths
