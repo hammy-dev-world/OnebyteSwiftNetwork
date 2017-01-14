@@ -17,12 +17,13 @@ OnebyteSwiftNetworkCycle is available through [CocoaPods](http://cocoapods.org).
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "OnebyteSwiftNetworkCycle"
+  pod 'OnebyteSwiftNetworkCycle', :git => 'https://github.com/hammy-dev-world/OnebyteSwiftNetwork.git'
+
 ```
 
 ## Author
 
-eHumayun Sohail, humayun4206@gmail.com
+Humayun Sohail (iOS Engineer, Onebyte LLC), humayun@onebyte.biz
 
 ## License
 
