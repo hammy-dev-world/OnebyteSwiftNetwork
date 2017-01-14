@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'OnebyteSwiftNetworkCycle/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'OnebyteSwiftNetworkCycle' => ['OnebyteSwiftNetworkCycle/Assets/*.png']
-  # }
+#s.resource_bundles = {
+#   'OnebyteSwiftNetworkCycle' => ['OnebyteSwiftNetworkCycle/DevelopmentPods/*']
+# }
 
   #s.public_header_files = 'Pod/Classes/**/*.h'
   #s.frameworks = 'Alamofire'
