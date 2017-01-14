@@ -1,12 +1,24 @@
 PODS:
   - Alamofire (4.2.0)
+  - OnebyteSwiftNetworkCycle (0.2.0):
+    - Alamofire (~> 4.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
+  - OnebyteSwiftNetworkCycle (from `https://github.com/hammy-dev-world/OnebyteSwiftNetwork.git`)
+
+EXTERNAL SOURCES:
+  OnebyteSwiftNetworkCycle:
+    :git: https://github.com/hammy-dev-world/OnebyteSwiftNetwork.git
+
+CHECKOUT OPTIONS:
+  OnebyteSwiftNetworkCycle:
+    :commit: 5ad27cedce429bdb144c52014c4cb22712497daf
+    :git: https://github.com/hammy-dev-world/OnebyteSwiftNetwork.git
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  OnebyteSwiftNetworkCycle: e881cabe499e3288a3189dff1e8e074539b7a77b
 
-PODFILE CHECKSUM: ce1718767eb4b0f7ccb15160f56635cf71632121
+PODFILE CHECKSUM: 2f83106741d6bfb72a1888069162bc5c33442b51
 
 COCOAPODS: 1.1.1

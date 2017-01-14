@@ -4,9 +4,8 @@ use_frameworks!
 
 target 'OnebyteSwiftNetworkCycle_Example' do
 
-  pod 'Alamofire', '~> 4.0'
-  pod 'OnebyteSwiftNetworkCycle', '~> 0.2.0'
-  
+  pod 'OnebyteSwiftNetworkCycle', :git => 'https://github.com/hammy-dev-world/OnebyteSwiftNetwork.git'
+
   target 'OnebyteSwiftNetworkCycle_Tests' do
     inherit! :search_paths
 

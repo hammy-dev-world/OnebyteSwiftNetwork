@@ -1,0 +1,6 @@
+framework module OnebyteSwiftNetworkCycle {
+  umbrella header "OnebyteSwiftNetworkCycle-umbrella.h"
+
+  export *
+  module * { export * }
+}
