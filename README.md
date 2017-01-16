@@ -21,6 +21,8 @@ it, simply add the following line to your Podfile:
 
 ```
 
+##Usage 
+
 ## Author
 
 Humayun Sohail (iOS Engineer, Onebyte LLC), humayun@onebyte.biz
