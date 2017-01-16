@@ -29,11 +29,11 @@ it, simply add the following line to your Podfile:
 import OnebyteSwiftNetworkCycle
 
 ```
-2) Create a struct for ```ruby AppNetworkConstants``` that contains base url, end points, status codes and error codes.
+2) Create a struct for ```AppNetworkConstants``` that contains base url, end points, status codes and error codes.
 
-3) Create a class for ```ruby AppNetworkManager``` to handle requests as per requirements.
+3) Create a class for ```AppNetworkManager``` to handle requests as per requirements.
 
-4) Create separate operations by subclassing ```ruby AppNetworkManager``` in order to initiate requests.
+4) Create separate operations by subclassing ```AppNetworkManager``` in order to initiate requests.
 
 ## Author
 
