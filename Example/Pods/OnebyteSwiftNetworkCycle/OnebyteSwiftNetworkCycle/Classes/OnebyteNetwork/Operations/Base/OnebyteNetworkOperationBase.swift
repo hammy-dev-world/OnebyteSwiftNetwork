@@ -8,13 +8,13 @@
 
 import Foundation
 
-class OnebyteNetworkOperationBase: Operation{
+open class OnebyteNetworkOperationBase: Operation{
     //MARK: Instance Variables
     var networkTask : URLSessionDataTask?
     
     //MARK: States
     private var _executing : Bool = false
-    override var isExecuting : Bool {
+    override open var isExecuting : Bool {
         get { return _executing }
         set {
             guard _executing != newValue else { return }
@@ -25,7 +25,7 @@ class OnebyteNetworkOperationBase: Operation{
     }
     
     private var _finished : Bool = false
-    override var isFinished : Bool {
+    override open var isFinished : Bool {
         get { return _finished }
         set {
             guard _finished != newValue else { return }
@@ -34,14 +34,14 @@ class OnebyteNetworkOperationBase: Operation{
             didChangeValue(forKey: "isFinished")
         }
     }
-
-
+    
+    
     //MARK: Callbacks
     public var didFinishWithErrorCallback : ((_ error: Error?) -> Void)?
     public var didFinishSuccessfullyCallback : ((_ responseObject: AnyObject?) -> Void)?
-
+    
     //MARK: Overriden Methods
-    override func start() {
+    override open func start() {
         DispatchQueue.main.async {
             self.willChangeValue(forKey: "isExecuting")
             self.isExecuting = true
@@ -49,7 +49,7 @@ class OnebyteNetworkOperationBase: Operation{
         }
     }
     
-    override func cancel() {
+    override open func cancel() {
         super.cancel()
         self.networkTask?.cancel()
         

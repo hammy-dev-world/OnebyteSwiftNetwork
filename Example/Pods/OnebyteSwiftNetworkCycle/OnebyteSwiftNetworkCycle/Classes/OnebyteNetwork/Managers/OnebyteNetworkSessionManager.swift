@@ -9,10 +9,10 @@
 import Foundation
 import Alamofire
 
-class OnebyteNetworkSessionManager : SessionManager{
+open class OnebyteNetworkSessionManager : SessionManager{
     
     //MARK: Class Variables
-    static let sharedInstance = OnebyteNetworkSessionManager()
+    static public let sharedInstance = OnebyteNetworkSessionManager()
     
-
+    
 }

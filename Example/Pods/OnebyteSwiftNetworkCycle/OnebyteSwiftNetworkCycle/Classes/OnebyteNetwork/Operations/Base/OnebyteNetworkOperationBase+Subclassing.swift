@@ -10,31 +10,31 @@ import Foundation
 
 extension OnebyteNetworkOperationBase {
     //MARK: Public methods
-    public func handleDidFinishedWithResponse(response: AnyObject!) -> Void{
+    open func handleDidFinishedWithResponse(response: AnyObject!) -> Void{
         // To be overriden
     }
     
-    public func handleDidFinishedUpdatingVoucherWithResponse(response: AnyObject!) -> Void{
+    open func handleDidFinishedUpdatingVoucherWithResponse(response: AnyObject!) -> Void{
         // To be overriden
     }
     
-    public func handleDidFinishedWithError(error: Error!) -> Void{
+    open func handleDidFinishedWithError(error: Error!) -> Void{
         // To be overriden
     }
-
-    public func handleDidFinishedCommon() -> Void{
+    
+    open func handleDidFinishedCommon() -> Void{
         // To be overriden
     }
-
-    public func safeCallDidFinishWithErrorCallback(error: Error!) -> Void{
+    
+    open func safeCallDidFinishWithErrorCallback(error: Error!) -> Void{
         DispatchQueue.main.async {
             if self.didFinishWithErrorCallback != nil {
-               self.didFinishWithErrorCallback!(error)
+                self.didFinishWithErrorCallback!(error)
             }
         }
     }
-
-    public func safeCallDidFinishSuccessfullyCallback(responseObject: AnyObject!) -> Void{
+    
+    open func safeCallDidFinishSuccessfullyCallback(responseObject: AnyObject!) -> Void{
         DispatchQueue.main.async {
             if self.didFinishSuccessfullyCallback != nil {
                 self.didFinishSuccessfullyCallback!(responseObject)

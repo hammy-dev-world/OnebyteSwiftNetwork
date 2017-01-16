@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 
+import OnebyteSwiftNetworkCycle
 
 class AuthorizedAPIOperation: OnebyteNetworkOperationBase {
     //MARK: Instance Variables

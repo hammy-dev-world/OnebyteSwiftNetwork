@@ -7,9 +7,12 @@
 //
 
 import Foundation
+import Alamofire
 
-class OnebyteNetworkOperationQueue : OperationQueue{
-    static let sharedInstance = OnebyteNetworkOperationQueue()
+open class OnebyteNetworkOperationQueue : OperationQueue{
+    
+    //MARK: Class Variables
+    static public let sharedInstance = OnebyteNetworkOperationQueue()
+    
+    
 }
-
-

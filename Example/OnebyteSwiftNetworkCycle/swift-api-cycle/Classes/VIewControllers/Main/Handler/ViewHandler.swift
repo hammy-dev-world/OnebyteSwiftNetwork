@@ -9,6 +9,8 @@
 import Foundation
 import Alamofire
 
+import OnebyteSwiftNetworkCycle
+
 class ViewHandler: NSObject {
     //MARK: Instance Variables
     var viewController: ViewController!
