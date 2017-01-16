@@ -23,9 +23,21 @@ it, simply add the following line to your Podfile:
 
 ##Usage 
 
+1) Import the module in your development hierarchy,
+
+```ruby
+import OnebyteSwiftNetworkCycle
+
+```
+2) Create a struct for ```ruby AppNetworkConstants``` that contains base url, end points, status codes and error codes.
+
+3) Create a class for ```ruby AppNetworkManager``` to handle requests as per requirements.
+
+4) Create separate operations by subclassing ```ruby AppNetworkManager``` in order to initiate requests.
+
 ## Author
 
-Humayun Sohail (iOS Engineer, Onebyte LLC), humayun@onebyte.biz
+Humayun Sohail (Senior iOS Engineer, Onebyte LLC), humayun@onebyte.biz
 
 ## License
 
