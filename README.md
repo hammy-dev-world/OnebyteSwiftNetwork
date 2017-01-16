@@ -33,7 +33,7 @@ import OnebyteSwiftNetworkCycle
 
 3) Create a class for ```AppNetworkManager``` to handle requests as per requirements.
 
-4) Create separate operations by subclassing ```AppNetworkManager``` in order to initiate requests.
+4) Create separate operations by subclassing ```OnebyteNetworkOperationBase``` in order to initiate requests.
 
 ## Author
 
